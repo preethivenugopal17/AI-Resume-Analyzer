@@ -49,39 +49,45 @@ An AI-powered web application built using Django that analyzes resumes and provi
 ## 📸 Screenshots
 
 ### 🔹 Home Page
-![Home](images/home.png)
+![Home](home.png)
 
 ### 🔹 Analysis Result
-![Result](images/result.png)
+![Result](result.png)
 
 ---
 
 ## 📂 Project Structure
+
+```
 resume_analyzer/
-│
 ├── analyzer/
-│ ├── views.py
-│ ├── models.py
-│ ├── urls.py
+│   ├── views.py
+│   ├── models.py
+│   ├── urls.py
 │
 ├── resume_analyzer/
-│ ├── settings.py
-│ ├── urls.py
-│ ├── wsgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
 │
 ├── templates/
 ├── manage.py
 ├── requirements.txt
 ├── Procfile
 ├── build.sh
+├── home.png
+└── result.png
+```
 
 ---
 
 ## 🔐 Environment Variables
+
+```
 SECRET_KEY=your_secret_key
 DEBUG=False
 GROQ_API_KEY=your_api_key
-
+```
 ---
 
 ## 🧪 Run Locally
