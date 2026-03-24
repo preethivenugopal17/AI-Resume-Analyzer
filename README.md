@@ -49,10 +49,7 @@ An AI-powered web application built using Django that analyzes resumes and provi
 ## 📸 Screenshots
 
 ### 🔹 Home Page
-![Home Page](images/home.png)
-
-### 🔹 Resume Upload
-![Upload](images/upload.png)
+![Home](images/home.png)
 
 ### 🔹 Analysis Result
 ![Result](images/result.png)
@@ -84,6 +81,7 @@ resume_analyzer/
 SECRET_KEY=your_secret_key
 DEBUG=False
 GROQ_API_KEY=your_api_key
+
 ---
 
 ## 🧪 Run Locally
